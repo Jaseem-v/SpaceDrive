@@ -139,6 +139,7 @@
     .secure .right-part img {
         width: 47%;
         margin-left: 14rem;
+        margin-top: -18rem;
     }
     .secure .left-part {
         padding-left: 7rem;
@@ -238,6 +239,7 @@
     .secure .right-part img {
         width: 74%;
         margin-left: 0rem;
+        margin-top: 0rem;
     }
     .secure2 .right-part {
         height: auto;
