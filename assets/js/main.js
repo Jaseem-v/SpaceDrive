@@ -3,7 +3,7 @@
 
 function toggleMenu() {
   document.querySelector(' .header2 .nav-right ul').classList.toggle('active')
-  var closeMenu = document.querySelector('.menu.active');
+  var closeMenu = document.querySelector('.header2 .nav-right ul.active');
 
   if (closeMenu) {
     document.body.style.overflow = "hidden";
