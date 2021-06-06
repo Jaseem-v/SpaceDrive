@@ -163,9 +163,7 @@
     .header2 .nav-right ul li:hover {
         color: #aaa;
     }
-    .header2 .nav-right ul li::after {
-        display: none;
-    }
+    
     .secure .secure2 {
     margin-top: 0rem; 
     }
