@@ -240,6 +240,7 @@
     }
     .secure .left-part {
         padding-left: 1rem;
+        padding-bottom: 2rem;
     }
     .secure .right-part img {
         width: 74%;
