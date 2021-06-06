@@ -164,6 +164,11 @@
         color: #aaa;
     }
     
+     .header2 .nav-right ul li:hover::after {
+        display:none;
+    }
+    
+    
     .secure .secure2 {
     margin-top: 0rem; 
     }
