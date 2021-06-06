@@ -292,6 +292,9 @@
     .header2 {
         padding-top: 3rem;
     }
+    .secure .left-part p {
+    max-width: none;
+}
 }
 
 @media only screen and (max-width:430px) {
