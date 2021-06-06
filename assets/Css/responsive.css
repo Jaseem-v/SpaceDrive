@@ -235,15 +235,15 @@
     }
     .secure .right-part img {
         width: 74%;
-        margin-left: 14rem;
+        margin-left: 0rem;
     }
     .secure2 .right-part {
-        height: 16rem;
-        padding-left: 10rem;
+        height: auto;
+        padding-left: 0;
     }
     .secure2 .right-part img {
-        margin-top: 11rem;
-        margin-left: 9rem;
+        margin-top: 0;
+        margin-left: 0;
     }
     .footer-content {
         display: flex !important;
