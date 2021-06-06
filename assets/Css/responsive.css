@@ -134,7 +134,7 @@
         padding: 0rem 2rem;
     }
     .secure {
-        height: 200vh;
+        height: auto;
     }
     .secure .right-part img {
         width: 47%;
@@ -164,6 +164,9 @@
     }
     .header2 .nav-right ul li::after {
         display: none;
+    }
+    .secure .secure2 {
+    margin-top: 0rem; 
     }
 }
 
@@ -244,6 +247,9 @@
     .secure2 .right-part img {
         margin-top: 0;
         margin-left: 0;
+    }
+    .secure .right-part {
+    height: auto !important;
     }
     .footer-content {
         display: flex !important;
