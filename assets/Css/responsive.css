@@ -318,7 +318,7 @@
 
 @media only screen and (max-width:361px) {
     .pricing .heading h1 {
-        font-size: 32px !important;
+        font-size: 32px ;
     }
     .pricing .heading p {
         font-size: 1.1rem;
