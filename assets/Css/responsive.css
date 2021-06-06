@@ -65,6 +65,7 @@
     .header2 .nav-right ul.active {
         transform: translateX(0%);
         visibility: visible;
+        padding: 5rem 0;
     }
     .header2 .nav-right ul li {
         margin-right: 0rem;
@@ -275,7 +276,7 @@
         font-size: 1.3rem;
     }
     .header2 .nav-right ul li {
-        padding: 2rem 4rem;
+        padding: 1.4rem 4rem;
     }
     .pricing .single-price-bg:nth-child(3) {
         margin-left: 10rem;
