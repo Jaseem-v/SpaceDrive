@@ -173,8 +173,9 @@ display: none;
     border-radius: 3rem;
     border: none;
     cursor: pointer;
-    box-shadow: 0px 0px 2px rgb(47, 47, 47);
     font-size:1.5rem;
+    margin-top:1rem;
+    overflow:hidden;
 }
 
 .banner-left .banner-btn:hover {
