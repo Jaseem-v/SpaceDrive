@@ -1,9 +1,7 @@
-
 // toggle menu--------
 
 
 function toggleMenu() {
-  document.querySelector('.menu').classList.toggle('active')
   document.querySelector(' .header2 .nav-right ul').classList.toggle('active')
   var closeMenu = document.querySelector('.menu.active');
 
@@ -12,8 +10,12 @@ function toggleMenu() {
   } else {
     document.body.style.overflow = "auto";
   }
-  document.querySelector('.header2').classList.toggle('open')
 }
+
+function closeMenu(){
+  document.querySelector(' .header2 .nav-right ul').classList.toggle('active')
+}
+
 
 
 
