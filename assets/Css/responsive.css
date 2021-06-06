@@ -197,8 +197,8 @@
         margin-left: -18rem !important;
     }
     .banner-right {
-        height: 46vh;
-        margin-top: 10rem;
+        height: auto;
+        padding-top:5rem;
     }
     .banner-left {
         height: 46vh;
