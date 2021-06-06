@@ -144,7 +144,7 @@
         padding-left: 7rem;
     }
     .secure .right-part {
-        height: 6rem !important;
+        height: auto !important;
     }
     .secure2 .left-part {
         margin-top: 13rem;
