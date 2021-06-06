@@ -1,0 +1,400 @@
+@media only screen and (max-width:1030px) {
+    .pricing .single-price-bg {
+        margin-left: 2rem;
+        width: 29.5rem;
+    }
+    .single-features {
+        margin: 3.8rem;
+    }
+    .header2 .nav-right ul li {
+        margin-right: 1rem;
+    }
+    .search-area {
+        margin-top: 3rem;
+    }
+    footer .footer-content .news-letter-footer input {
+        width: 63%;
+    }
+    footer .move-up {
+        display: none;
+    }
+    .banner-right img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:770px) {
+    .top-area {
+        padding-bottom: 4rem;
+    }
+    .header2 .nav-right ul {
+        flex-direction: column;
+        width: 100%;
+        background: linear-gradient(to right bottom, #8909AD, #1F08A2);
+        color: #fff;
+        position: fixed;
+        left: 0;
+        z-index: 3;
+        top: 0;
+        overflow: hidden;
+        visibility: hidden;
+        height: 100%;
+        position: fixed;
+        transform: translateX(-110%);
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        transition-duration: 0.5s;
+    }
+    .header2 .nav-right::before {
+        position: fixed;
+        content: '';
+        background: #0f0f0f;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        z-index: 2;
+        opacity: 0;
+        visibility: hidden;
+    }
+    .header2.open .nav-right::before {
+        opacity: 0.7;
+        visibility: visible;
+    }
+    .header2 .nav-right ul.active {
+        transform: translateX(0%);
+        visibility: visible;
+    }
+    .header2 .nav-right ul li {
+        margin-right: 0rem;
+        padding: 4rem 9rem;
+        border-bottom: 2px solid rgba(255, 255, 255, .05);
+        width: 100%;
+    }
+    .menu {
+        display: block;
+    }
+    .menu.active {
+        background-image: url(../images/close.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 15px;
+        width: 15px;
+        margin-top: 1rem;
+        z-index: 15;
+        position: fixed;
+        top: 5;
+        right: 35px;
+    }
+    .banner-left {
+        padding-left: 5rem;
+    }
+    .search-area .input-box input {
+        width: 79%;
+    }
+    .single-features {
+        margin: 2.9rem;
+    }
+    .single-features:nth-child(3) {
+        margin-left: 20rem;
+    }
+    .why-choose-us .right-part {
+        display: none;
+    }
+    .secure2 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .pricing {
+        padding: 1rem 0;
+        padding-bottom: 4rem;
+    }
+    .pricing .single-price-bg {
+        margin-left: 7rem;
+        margin-top: 2rem;
+        width: 26.4rem;
+        height: 36.1rem;
+    }
+    .pricing .single-price {
+        padding: 0rem 0 4rem;
+        width: 26.3rem;
+    }
+    .pricing .single-price-bg:nth-child(3) {
+        margin-left: 25rem;
+    }
+    footer .footer-content {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    footer .footer-content>div {
+        padding: 1rem 2.5rem;
+    }
+    .copy-rights {
+        padding: 0rem 2rem;
+    }
+    .secure {
+        height: 200vh;
+    }
+    .secure .right-part img {
+        width: 47%;
+        margin-left: 14rem;
+    }
+    .secure .left-part {
+        padding-left: 7rem;
+    }
+    .secure .right-part {
+        height: 6rem !important;
+    }
+    .secure2 .left-part {
+        margin-top: 13rem;
+    }
+    .secure2 .right-part {
+        height: 6rem;
+        padding-left: 15rem;
+    }
+    .search-area .input-box {
+        width: 73rem;
+    }
+    .why-choose-us .left-part {
+        padding: 6rem;
+    }
+    .header2 .nav-right ul li:hover {
+        color: #aaa;
+    }
+    .header2 .nav-right ul li::after {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:545px) {
+    .header2 .nav-right ul.active .for-mob-menu {
+        display: block;
+    }
+    .header-1 {
+        display: none;
+    }
+    .single-price-bg:nth-child(3) {
+        margin-left: 7rem;
+    }
+    .single-features:nth-child(3) {
+        margin-left: 2.9rem;
+    }
+    .search-area .input-box {
+        width: 41rem;
+        padding: 0 2rem;
+    }
+    .search-area .input-box input {
+        width: 100%;
+        padding: 1rem 1rem;
+    }
+    .search-area .input-box button {
+        padding: 0rem 2rem;
+        width: 14rem;
+        height: 4rem;
+    }
+    .search-area .input-box p {
+        margin-left: -18rem !important;
+    }
+    .banner-right {
+        height: 46vh;
+        margin-top: 10rem;
+    }
+    .banner-left {
+        height: 46vh;
+        margin-top: 10rem;
+    }
+    .search-area {
+        margin-top: 10rem;
+    }
+    .search-area h1 {
+        font-size: 3rem;
+    }
+    .domains ul li:nth-child(7) {
+        display: none;
+    }
+    .domains ul li:nth-child(8) {
+        display: none;
+    }
+    .domains ul li:nth-child(9) {
+        display: none;
+    }
+    .domains ul li:nth-child(10) {
+        display: none;
+    }
+    .why-choose-us .left-part {
+        height: 83vh;
+    }
+    .why-choose-us .left-part {
+        padding: 3rem;
+    }
+    .secure .left-part {
+        padding-left: 1rem;
+    }
+    .secure .right-part img {
+        width: 74%;
+        margin-left: 14rem;
+    }
+    .secure2 .right-part {
+        height: 16rem;
+        padding-left: 10rem;
+    }
+    .secure2 .right-part img {
+        margin-top: 11rem;
+        margin-left: 9rem;
+    }
+    .footer-content {
+        display: flex !important;
+        flex-wrap: wrap;
+    }
+    .footer-content .about-us p {
+        font-size: 1.3rem;
+        line-height: 2em;
+        padding-left: 1rem;
+    }
+    .why-choose-us .left-part p {
+        font-size: 1.2rem;
+    }
+    .why-choose-us .left-part h1 {
+        font-size: 3.2rem;
+    }
+    .copy-rights {
+        font-size: 1.2rem !important;
+    }
+    .pricing .heading p {
+        font-size: 1.3rem;
+    }
+    .header2 .nav-right ul li {
+        padding: 2rem 4rem;
+    }
+    .pricing .single-price-bg:nth-child(3) {
+        margin-left: 10rem;
+    }
+    .pricing .single-price-bg {
+        margin-left: 10rem;
+    }
+    .header2 {
+        padding-top: 3rem;
+    }
+}
+
+@media only screen and (max-width:430px) {
+    .pricing .single-price-bg:nth-child(3) {
+        margin-left: 7rem;
+    }
+    .pricing .single-price-bg {
+        margin-left: 7rem;
+    }
+}
+
+@media only screen and (max-width:380px) {
+    .search-area .input-box {
+        width: 37rem;
+        padding: 0 1rem;
+    }
+    .copy-rights .right-part {
+        display: none;
+    }
+    footer .footer-content>div:nth-child(2) {
+        padding: 1rem 0rem;
+    }
+    .pricing .single-price-bg {
+        margin-left: 5.5rem;
+    }
+    .pricing .single-price-bg:nth-child(3) {
+        margin-left: 5.5rem;
+    }
+}
+
+@media only screen and (max-width:361px) {
+    .pricing .heading h1 {
+        font-size: 32px !important;
+    }
+    .pricing .heading p {
+        font-size: 1.1rem;
+    }
+}
+
+@media only screen and (max-width:330px) {
+    .banner-left p {
+        max-width: 237px;
+    }
+    .search-area .input-box {
+        width: 32rem;
+        padding: 0 1rem;
+    }
+    .domains ul li:nth-child(6) {
+        display: none;
+    }
+    .secure .right-part img {
+        width: 74%;
+        margin-left: 7rem;
+        margin-top: 10rem;
+    }
+    .pricing .single-price-bg {
+        margin-left: 3rem;
+    }
+    .single-price-bg:nth-child(3) {
+        margin-left: 3rem !important;
+    }
+    .pricing .heading h1 {
+        font-size: 2.91rem;
+    }
+    .pricing .heading p {
+        font-size: 1.1rem;
+    }
+    .pricing .single-price ul li {
+        font-size: 1.3rem;
+        margin-top: 0.6rem;
+    }
+    .pricing .single-price p {
+        font-size: 1.5rem;
+    }
+    .pricing .single-price h5 {
+        font-size: 1.5rem;
+    }
+    .pricing .single-price h1 {
+        font-size: 2.5rem;
+    }
+    .pricing .single-price-bg {
+        height: 33.34rem;
+    }
+    footer .footer-content {
+        display: flex;
+        flex-direction: column;
+    }
+    footer .footer-content>div:nth-child(2) {
+        padding: 1rem 2.5rem;
+    }
+    .footer-content .about-us p {
+        padding-left: 0;
+    }
+    .our-services .heading {
+        padding: 2rem;
+    }
+    .search-area h1 {
+        font-size: 2rem;
+    }
+    .search-area .input-box button {
+        width: 14rem;
+        height: 3.5rem;
+        font-size: 1.1rem;
+    }
+    .search-area .input-box input {
+        width: 100%;
+        padding: 1rem 1rem;
+        font-size: 1.1rem;
+    }
+    .search-area .input-box p {
+        font-size: 1.1rem;
+    }
+    .search-area .input-box p {
+        margin-left: -17rem !important;
+    }
+    .search-area .domains ul li {
+        font-size: 1.2rem;
+    }
+    .search-area {
+        margin-top: 0rem;
+    }
+}

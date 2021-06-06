@@ -1,0 +1,11 @@
+/*  font-family:Poppins  */
+@font-face {
+    font-family: Poppins;
+    src: url('../fonts/Poppins/Poppins-Regular.ttf');
+}
+
+/*  font-family: Museo-slab  */
+@font-face {
+    font-family: Museo-slab;
+    src: url('../fonts/museo-slab/Museo_Slab_500.otf');
+}
