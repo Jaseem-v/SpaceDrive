@@ -76,7 +76,7 @@
     .menu {
         display: block;
     }
-    .menu.active {
+     .menu-close {
         background-image: url(../images/close.png);
         background-size: cover;
         background-repeat: no-repeat;
@@ -86,7 +86,7 @@
         margin-top: 1rem;
         z-index: 15;
         position: fixed;
-        top: 5;
+        top: 33px;
         right: 35px;
     }
     .banner-left {
