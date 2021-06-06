@@ -77,7 +77,7 @@
         display: block;
     }
      .menu-close {
-         display:block;
+        display: block;
         background-image: url(../images/close.png);
         background-size: cover;
         background-repeat: no-repeat;
