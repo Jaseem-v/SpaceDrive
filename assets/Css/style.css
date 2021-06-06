@@ -428,7 +428,7 @@ display: none;
     justify-content: center;
     flex-direction: column;
     /* margin-top: 5rem; */
-    height: 60vh;
+    height: auto;
 }
 
 .secure .left-part h1 {
